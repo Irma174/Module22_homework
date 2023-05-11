@@ -1,0 +1,149 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin-top: 30px;
+    padding-left: 50px;
+}
+
+h1 {
+    text-transform: uppercase;
+    color: rgb(24, 24, 84);
+}
+
+a {
+    
+    color: brown;
+    font-weight: bold;
+}
+
+p {
+    font-size: 20px;
+}
+
+li {
+    list-style: none;
+}
+
+.task {
+    font-size: 25px;
+    color: rgb(17, 10, 22);
+}
+
+.link-back {
+    margin-top: 50px;
+    padding-bottom: 30px;
+}
+
+.container-task5 {
+    margin: 50px auto 0;
+    padding: 10px;
+    width: 800px;
+}
+
+.messages {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px auto;
+}
+
+input {
+    width: 520px;
+    height: 40px;
+    margin-left: 10px;
+    margin-top: 5px;
+    border: solid #315efb 5px;
+    font-size: 25px;
+    color: #212529;
+    outline-width: 0;
+    padding-left: 5px;
+}
+
+.chat_output {
+    border: solid #315efb 5px;
+    min-height: 100px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.chat {
+    margin: 15px 0;
+    padding: 0;
+    border: solid #315efb 5px;
+}
+
+.recieved {
+    display: inline-block;
+    border: 2px solid #353580;
+    align-self: flex-start;
+    border-radius: 10px;
+    margin: 5px 20px ;
+    padding: 5px 10px;
+}
+
+.sent {
+    display: inline-block;
+    border: 2px solid #1b8a1b;
+    border-radius: 10px;
+    align-self: flex-end;
+    margin: 5px 20px;
+    padding: 5px 10px;
+}
+
+#output {
+    border: solid #315efb 2px;
+    border-radius: 10%;
+}
+
+.btn {
+    padding: 0;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+    box-shadow: none;
+    cursor: pointer;
+
+    display: flex;
+    margin: 5px 10px;
+    padding: 10px 15px;
+    border-radius: 1px;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: white;
+    background: #315efb;
+    transition: 0.3s;
+}
+
+.btn-task5 {
+    width: 120px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn:hover {
+    box-shadow: 0px 2px 8px 2px rgba(141, 150, 178, .3);
+    transform: scale(1.05);
+}
+
+.btn_text {
+    margin-right: 10px;
+}
+
+.btn_icon {
+    width: 15px;
+    height: 15px;
+    font-size: 15px;
+}
+
+.info_output{
+    color: #041b71;
+    text-transform: uppercase; 
+}
