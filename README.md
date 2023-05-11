@@ -15,4 +15,4 @@
 
 ## Как открыть/запустить
 
-[ОТКРЫТЬ ПРОЕКТ][(/index.html](https://irma174.github.io/Module22_homework/))
+[ОТКРЫТЬ ПРОЕКТ][(https://irma174.github.io/Module22_homework/)]
